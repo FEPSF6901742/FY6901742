@@ -281,7 +281,7 @@ p.ex1 {
   function displayTotalWordCount() {
      const IntroductionCount = displayWordCount("Introduction_InText");
    // const AnalysisCount = displayWordCount("Analysis_InText");
-     const totalWordCount = IntroductionCount + AnalysisCount;
+     const totalWordCount = IntroductionCount; //+ AnalysisCount;
     document.getElementById("totalWordCount").innerText = `Total word count: ${totalWordCount}`;
   }
   window.onload = displayTotalWordCount;
